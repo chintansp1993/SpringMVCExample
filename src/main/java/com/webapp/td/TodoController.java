@@ -1,4 +1,4 @@
-package com.webapp.java;
+package com.webapp.td;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
-import com.webapp.java.TodoService;
-import com.webapp.java.Todo;
+import com.webapp.td.Todo;
+import com.webapp.td.TodoService;
 
 //import com.webapp.login.LoginService;
 

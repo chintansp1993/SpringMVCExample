@@ -1,9 +1,10 @@
-<html>
-<head>
-<title>Yahoo!!</title>
-</head>
-<body>
-Welcome <b>${name}</b> and password is <b>${password}</b>
-<a href="/todo-list">Manage Todo List</a>
+<%@ include file = "commons/header.jspf" %>
+<%@ include file = "commons/navbar.jspf" %>
+
+<div class="container">
+<h1>Welcome <b>${name}</b></h1><br/>
+<a  class="btn btn-success" href="/todo-list">Manage Todo List</a>
+
+</div>
 </body>
 </html>
